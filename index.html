@@ -18,6 +18,17 @@
 <body>
     <div class="bg-dark container-fluid">
         <h1 class="text-white">container-fluid</h1>
+        <i class="fa-solid fa-cart-shopping float-end p-3 mt-5">
+            <span class="badge bg-danger">5</span>
+        </i>
+
+        <div class="spinner-grow bg-primary"></div>
+        <div class="spinner-grow bg-danger"></div>
+        <div class="spinner-grow bg-success"></div>
+        <div class="spinner-grow bg-info"></div>
+        <div class="spinner-grow bg-warning"></div>
+        <div class="spinner-grow bg-secondary"></div>
+       
     </div>
     <div class="bg-danger container p-5 mt-5">
         <h1>container</h1>
@@ -28,7 +39,12 @@
     </div>
 
    
-
+    <div class="spinner-border text-primary"></div>
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-border text-success"></div>
+    <div class="spinner-border text-info"></div>
+    <div class="spinner-border text-warning"></div>
+    <div class="spinner-border text-secondary"></div>
     <div class="container mt-5">
         <div class="row">
             <div class="col bg-danger">
@@ -132,7 +148,7 @@
             <h1 class="text-center bg-secondary">secondary</h1>
         </div>
         <div class="col bg-muted">
-            <h1 class="text-center ">MUTED</h1>
+            <h1 class="text-center bg-muted ">MUTED</h1>
 
         </div>
     </div>
@@ -176,7 +192,119 @@
         <img class="rounded-circle" src="./images/p.jpg" />
         <img class="img-thumbnail float-end" src="./images/p.jpg" />
     </div>
+    <div class="container">
+        <h1 class="display-3 text-center">Buttons <span class="badge bg-success rounded-pill">New!</span></h1>
+        <button>Click</button>
+        <button class="btn btn-primary">Click</button>
+        <a class="btn btn-danger" href="https://google.com">Link</a>
 
+        <div class="container">
+            <button class="btn btn-outline-success ">outline</button>
+            <button class="btn btn-outline-info">outline</button>
+            <button class="btn btn-outline-warning">outline</button>
+            <button class="btn btn-primary btn-lg">large</button>
+            <button class="btn btn-primary " disabled>normal</button>
+            <button class="btn btn-outline-primary btn-sm">Small</button>
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-outline-danger btn-block">full</button>
+            <button class="btn btn-primary">
+                <span class="spinner-border spinner-border-sm"></span>
+              </button>
+        </div>
+
+        <div class="btn-group pt-5">
+            <button class="btn btn-info">btn 1</button>
+            <button class="btn btn-info">btn 2</button>
+            <button class="btn btn-info">btn 3</button>
+            <button class="btn btn-info">btn 4</button>
+           <div class="btn-group">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Links</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link 1</a>
+                <a href="#" class="dropdown-item">Link 2</a>
+                <a href="#" class="dropdown-item">Link 3</a>
+                <a href="#" class="dropdown-item">Link 4</a>
+            </div>
+           </div>
+        </div>
+        <div class="btn-group-vertical btn-group-sm pt-5">
+            <button class="btn-secondary btn">V btn</button>
+            <button class="btn-secondary btn">V btn</button>
+            <button class="btn-secondary btn">V btn</button>
+            <button class="btn-secondary btn">V btn</button>
+            <button class="btn-secondary btn">V btn</button>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h3 class="3">Progress in Bootstrap 5</h3>
+        <div class="progress">
+            <div class="progress-bar " style="width: 25%;">25%</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%;">60%</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 30%;">30%</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 10%;">10%</div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <ul class="list-group">
+            <li class="list-group-item  d-flex justify-content-between align-items-center">Apple
+                <span class="badge bg-danger">20</span>
+            </li>
+            <li class="list-group-item">orange</li>
+            <li class="list-group-item list-group-item-warning">Banana</li>
+        </ul>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4 card-em">
+                <div class="card" style="width:100%">
+                    <img src="./images/p2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Mark Dave</h4>
+                        <p class="card-text">Maneger office</p>
+                        <a href="#" class="btn btn-primary">visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 card-em">
+                <div class="card" style="width:100%">
+                    <img src="./images/p2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Henrey Modem</h4>
+                        <p class="card-text">Senior Web Developer</p>
+                        <a href="#" class="btn btn-primary">visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 card-em">
+                <div class="card" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Adam shoe</h4>
+                        <p class="card-text">Marketing Maneger</p>
+                        <a href="#" class="btn btn-primary">visit</a>
+                    </div>
+                    <img src="./images/p3.jpg" class="card-img-bottom">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <ul class="pagination justify-content-center mt-5">
+        <li class="page-item"><a class="page-link">Perviuos</a></li>
+        <li class="page-item active"><a class="page-link">1</a></li>
+        <li class="page-item"><a class="page-link">2</a></li>
+        <li class="page-item"><a class="page-link">3</a></li>
+        <li class="page-item"><a class="page-link">next</a></li>
+    </ul>
 
     <script src="app.js"></script>
 </body>
